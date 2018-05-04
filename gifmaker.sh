@@ -1,1 +1,2 @@
-convert -delay 20 -loop 0 img/[0-9].png img/output.gif
+#!/usr/bin/env bash
+python animacao_sampling.py img/amendoim.png img/pacoca.png
